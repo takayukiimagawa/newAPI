@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
+
+.App {
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center;
+}
+
+h1 {
+  margin: 6vh 0;
+}
+
+button {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  background: #fff;
+  padding: 2vh 2vw;
+  margin-bottom: 6vh;
+  border-radius: 50px;
+  border: none;
+  transition: 0.3s;
+}
+
+.card {
+  padding: 4vh 4vw;
+  margin: 2vh 4vw;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.025);
+  box-shadow: 0 4px 8px 0 #84dbdf, 0 6px 20px 0 #84dbdf;
+}
+
+.title {
+  font-size: 4vh;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: #84dbdf;
+  margin: 24vh 0;
+  transition: 0.3s;
+}
+
+a:hover {
+  letter-spacing: 1.1vw;
+}
